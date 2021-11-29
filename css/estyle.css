@@ -1,0 +1,19 @@
+.index{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    }
+h1{
+    color: crimson;
+   margin: 20px;;
+}
+li{color: crimson;
+}
+.resaltar{color: darkslategray;
+}
+p{color: black;}
+
+*{
+    margin: 10px;
+}
