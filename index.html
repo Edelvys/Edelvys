@@ -1,7 +1,7 @@
  <!DOCTYPE html>
  <html>
  <head> 
-
+   <title>Tu Compra On-line</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="Ropa, exlusividad, calidad ">
@@ -9,21 +9,41 @@
     <link rel="icon" href="images/ss.ico">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/estyle.css">
-    <title>Tu Compra On-line</title>
+    
     
  </head> 
  <body>
-    <header>
-        <nav>
+    <header class="Encabezado" role="banner">
+      
+       <img src="images/logo.svg" alt="logo del sitio">
+       <button type="button" class="Buscar">Buscar</button> 
+       <button type="button" class="menu"> Menu</button> 
 
-         <a href="index.html">Inicio</a>
+       <form action="#" id="bloque-buscar">     
+          <div class="contenedor bloque buscar">  
+
+             <input type="text" placeholder="Buscar..." >   
+             <input type="submit" value="Buscar">  
+
+          </div>
+      </form>
+
+      <nav id="menu-principal">
+           <ul>
+              
+               <li class="active"><a href="index.html">Inicio</a></li>
+               <li><a href="#Secciones">Secciones</a></li>
+               
           
-         <a href="Secciones.html">Secciones</a>
-         <a href="Información.html" >Información</a>
-        </nav>
-        <div class="index">
+              
+               <li><a href="#Informacion" >Información</a></li>
+           </ul>
+       </nav>
+        
+       <div class="index">
             <img  src="images/111.jpg" width="350" title="Moda">
-        </div>
+         
+         </div>
         
     <h1>Las Mejores Ofertas del Mercado</h1>
     <article>     
@@ -50,19 +70,59 @@
                    
                   </ol> 
                   
-       </section>
+       </section> 
+       <div id="Secciones">
         
-            </article>
-            </header>
-     <form>
-      
+         <a href="#RopaM">Ropa de Mujer</a><br>
+         <br>
+         <a href="#RopaH">Ropa de Hombre</a><br><br>
+         <a href="#Informacion">Información</a><br>
+
+             <img src="images/44.jpg" title="Moda">
+          </div>
+          <div id="RopaM">
+             
+            <img src="images/27.jpg" title=""><br>
+            <h1>Articulos de Mujer</h1>
+            <img src="images/5.jpg" title="Pantalón de mujer">
     
+            <img src="images/6.jpg" width="200" title="Pantalón de mujer">
+    
+           <img src="images/4.jpg" width="140" title="Pantalón de mujer"> <br>
+           <img src="images/20.jpg" title="Calzado de Mujer">
+           <img src="images/21.jpg" title="Calzado de Mujer">
+           <img src="images/22.jpg" title="Calzado de Mujer"> 
+           <img src="images/23.jpg" title="Calzado de Mujer">
+           <img src="images/24.jpg" title="Calzado de Mujer">
+           <img src="images/25.jpg" title="Calzado de Mujer">
+           <img src="images/26.jpg" title="Calzado de Mujer"><br>
+           <a href="file:///C:/Users/Edelvy/Desktop/p5/Consola.html" >Comprar</a>
 
+          </div>
+          <div id="RopaH">
+            <img src="images/31.png">
+            <h1>Articulos de Hombre</h1>
+             <img src="images/8.jpg" title="Pantalón de Hombre">
+             <img src="images/7.jpg" title="Pantalón de Hombre">
+             <img src="images/3.webp" width="260" title="Pantalón de Hombre">
+             <img src="images/2.jpeg" width="380" title="Pantalón de Hombre"><br><br>
+             <img src="images/32.jpg" title="Calzado de Hombre">
+             <img src="images/33.jpg" title="Calzado de Hombre">
+             <img src="images/34.jpg" title="Calzado de Hombre">
+             <img src="images/35.jpg" title="Calzado de Hombre">
+             <img src="images/36.jpg" title="Calzado de Hombre">
+             <br>
+             <a href="file:///C:/Users/Edelvy/Desktop/p5/Consola.html" >Comprar</a>
 
-     </form>
-   
-  
+          </div>
+          <div id="Informacion">
 
+             <h1>Información</h1>
+            <a href="http://www.google.com"> Acceder a Google</a><br><br>
+            <a href="http://www.youtube.com">Acceder a Youtube</a><br>
+
+          </div>
+        
      <footer>
         
             
@@ -72,5 +132,9 @@
      
          
      <script src="js/bootstrap.min.js"></script>
+
+     
+
+     
 </body>
 </html>
