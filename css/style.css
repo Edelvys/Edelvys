@@ -1,0 +1,55 @@
+
+
+.index{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    }
+h1{
+    color-adjust:inherit;
+   margin: 20px;}
+   .isplay-4{
+     font-size: 100px;
+     color: blanchedalmond;
+
+   
+  }
+  
+li{color: crimson;
+}
+.Ver{
+  background:url("../images/54.jpg") no-repeat center top ;
+  color:ivory;
+  font-size: 20px;
+  text-anchor: 20px;
+  background-size: cover;
+  
+}
+
+.resaltar{color:cadetblue;
+ text-anchor: 20px;
+}
+p{color: rgb(201, 215, 230);}
+
+*{
+    
+    align-items: center;
+    
+}
+h2{
+  color: red;
+}
+* {
+   
+   
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
